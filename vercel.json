@@ -1,0 +1,9 @@
+{
+    "functions": {
+      "api/sendMail": {
+        "handler": "sendMail.handler",
+        "runtime": "node12"
+      }
+    }
+  }
+  

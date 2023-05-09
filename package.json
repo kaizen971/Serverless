@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "nodemailer": "^6.9.1"
+  },
+  "name": "serverless",
+  "version": "1.0.0",
+  "main": "sendMail.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sendMail.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
