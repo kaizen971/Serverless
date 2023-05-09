@@ -2,6 +2,10 @@ import { VercelRequest, VercelResponse } from '@vercel/node';
 import nodemailer from 'nodemailer';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
+  if (req.method === 'GET') {
+    // Envoi de la réponse HTTP
+    return res.status(200).send('Bonjour');
+  } 
   // Récupération des informations du corps de la requête HTTP
   const { to, subject, message } = req.body;
 
