@@ -1,7 +1,0 @@
-{
-  "functions": {
-    "api/sendMail": {
-      "runtime": "node12"
-    }
-  }
-}
